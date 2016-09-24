@@ -1,0 +1,46 @@
+{
+  "name": "react-electron-todo",
+  "version": "1.0.0",
+  "description": "Todo app done with react and electron hopefully",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "start": "webpack-dev-server",
+    "lint": "eslint src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AscaL/react-electron-todo.git"
+  },
+  "author": "AscaL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AscaL/react-electron-todo/issues"
+  },
+  "homepage": "https://github.com/AscaL/react-electron-todo#readme",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "electron": "1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb": "^11.2.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "electron-packager": "^8.0.0",
+    "electron-rebuild": "^1.2.1"
+  }
+}
